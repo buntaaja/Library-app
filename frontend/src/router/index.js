@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Shark from "../components/Shark";
-import GamesComponent from "../components/GamesComponent";
+import ListOfBooks from "../components/ListOfBooks";
 
 Vue.use(VueRouter);
 
@@ -12,9 +12,9 @@ const routes = [
     component: Shark,
   },
   {
-    path: "/games",
-    name: "Games",
-    component: GamesComponent,
+    path: "/books",
+    name: "Books",
+    component: ListOfBooks,
   },
 ];
 
